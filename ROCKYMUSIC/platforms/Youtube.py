@@ -13,7 +13,7 @@ from py_yt import VideosSearch, Playlist
 from ROCKYMUSIC.utils.database import is_on_off
 from ROCKYMUSIC.utils.formatters import time_to_seconds
 
-from config import API_URL, VIDEO_API_URL, API_KEY,
+from config import API_URL, VIDEO_API_URL, API_KEY
 
 
 def cookie_txt_file():
