@@ -16,10 +16,10 @@ from ROCKYMUSIC import app
 async def privacy_command(client: Client, message: Message):
     await message.reply_photo(
         photo="https://files.catbox.moe/0jpf7u.jpg",
-        caption="**➻ ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ʀᴏᴄᴋʏ ʙᴏᴛꜱ ᴘʀɪᴠᴀᴄʏ ᴘᴏʟɪᴄʏ.**\n\n**⊚ ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛʜᴇɴ ꜱᴇᴇ ᴘʀɪᴠᴀᴄʏ ᴘᴏʟɪᴄʏ 🔏**",
+        caption="**➻ ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴋʀɪᴛɪ ʙᴏᴛꜱ ᴘʀɪᴠᴀᴄʏ ᴘᴏʟɪᴄʏ.**\n\n**⊚ ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴛʜᴇɴ ꜱᴇᴇ ᴘʀɪᴠᴀᴄʏ ᴘᴏʟɪᴄʏ 🔏**",
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("˹ ᴅᴘ-ɴᴀᴍᴇ ˼", url="https://t.me/DpNameBioFont")]
+                [InlineKeyboardButton("˹ ᴘʀᴏᴍᴏ ˼", url="https://t.me/badnam_xd?text=𝖧ᴇʏ%20ʙᴀʙʏ%20%20😄%20ɪ%20ᴡᴀɴᴛ%20ᴘᴀɪᴅ%20ᴘʀᴏᴍᴏᴛɪᴏɴ,%20ɢɪᴠᴇ%20ᴍᴇ%20ᴘʀɪᴄᴇ%20ʟɪsᴛ%20😙")]
             ]
         )
     )
