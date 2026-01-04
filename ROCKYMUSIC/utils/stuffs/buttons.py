@@ -15,8 +15,8 @@ import config
 class BUTTONS(object):
     ABUTTON = [
     [
-        InlineKeyboardButton("˹ sυᴘᴘσʀᴛ ˼", url="https://t.me/Vibe_Bots"),
-        InlineKeyboardButton("˹ υᴘᴅᴧᴛєs ˼", url="https://t.me/IamIstkhar")
+        InlineKeyboardButton("˹ sυᴘᴘσʀᴛ ˼", url="https://t.me/+8XQCCzEVYQY2NWJl"),
+        InlineKeyboardButton("˹ υᴘᴅᴧᴛєs ˼", url="https://t.me/kriti_update")
     ],
     [
         InlineKeyboardButton(text="˹ ❍ᴡηєʀ ˼", user_id=config.OWNER_ID),
@@ -32,7 +32,7 @@ class BUTTONS(object):
     ],
     [
         
-        InlineKeyboardButton("˹ ᴘʀɪᴠᴧᴄʏ ˼", url="https://telegra.ph/Privacy-Policy--Purvi-Bots-by-ALPHA-BABY-08-06"),
+        InlineKeyboardButton("˹ ᴘʀᴏᴍᴏ ˼", url="https://t.me/badnam_xd?text=𝖧ᴇʏ%20ʙᴀʙʏ%20%20😄%20ɪ%20ᴡᴀɴᴛ%20ᴘᴀɪᴅ%20ᴘʀᴏᴍᴏᴛɪᴏɴ,%20ɢɪᴠᴇ%20ᴍᴇ%20ᴘʀɪᴄᴇ%20ʟɪsᴛ%20😙"),
         InlineKeyboardButton("• ʙᴧᴄᴋ •", callback_data="settingsback_helper"),
     ]
     ]
@@ -42,7 +42,7 @@ class BUTTONS(object):
     INFO_NEW = [
     [
         InlineKeyboardButton("• ʙᴧᴄᴋ •", callback_data="settings_back_helper"),
-        InlineKeyboardButton("• ᴛᴜᴛᴏʀɪᴀʟ ᴠɪᴅᴇᴏ •", url="https://t.me/Careless_Coder/20")
+        InlineKeyboardButton("• ᴋʀɪᴛɪ ʙᴏᴛs •", url="https://t.me/kriti_update")
     ],
     ]
     
