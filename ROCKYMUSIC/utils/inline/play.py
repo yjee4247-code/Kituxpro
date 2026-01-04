@@ -83,7 +83,8 @@ def stream_markup_timer(_, chat_id, played, dur):
              InlineKeyboardButton(text="𝟤𝟢ˢ + >", callback_data="seek_forward_20")
          ],
         [
-            InlineKeyboardButton(text="✙ ʌᴅᴅ ϻє ɪη ʏσυʀ ɢʀσυᴘ ✙", url=f"https://t.me/{app.username}?startgroup=true"),
+            InlineKeyboardButton(text="["CLOSE_BUTTON"], callback_data="close"),
+    ]
         ]
     ]
     return buttons
@@ -104,7 +105,8 @@ def stream_markup(_, chat_id):
              InlineKeyboardButton(text="𝟤𝟢ˢ + >", callback_data="seek_forward_20")
          ],
         [
-            InlineKeyboardButton(text="✙ ʌᴅᴅ ϻє ɪη ʏσυʀ ɢʀσυᴘ ✙", url=f"https://t.me/{app.username}?startgroup=true"),
+            InlineKeyboardButton(text="["CLOSE_BUTTON"], callback_data="close"),
+    ]
         ]
     ]
     return buttons
