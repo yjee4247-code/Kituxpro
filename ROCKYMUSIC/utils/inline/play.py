@@ -1,15 +1,14 @@
-# ===========================================================
-# ©️ 2025-26 All Rights Reserved by Team Rocky (Im-Notcoder) 🚀
-# 
-# This source code is under MIT License 📜
-# ❌ Unauthorized forking, importing, or using this code
-#    without giving proper credit will result in legal action ⚠️
-# 
-# 📩 DM for permission : @MrRockytg
-# ===========================================================
+# ======================================================
+# ©️ 2025-26 All Rights Reserved by Kirti 😎
+
+# 🧑‍💻 Developer : t.me/lll_APNA_BADNAM_BABY_lll
+# 🔗 Source link : https://github.com/Badnam019
+# 📢 Telegram channel : t.me/lll_APNA_BADNAM_BABY_lll
+# =======================================================
 
 import math
-from pyrogram.types import InlineKeyboardButton
+from config import SUPPORT_CHAT, OWNER_USERNAME
+from pyrogram.types import InlineKeyboardButton, WebAppInfo
 from ROCKYMUSIC import app
 import config
 from ROCKYMUSIC.utils.formatters import time_to_seconds
@@ -62,7 +61,6 @@ def stream_markup_timer(_, chat_id, played, dur):
         bar = "————————◉—"
     else:
         bar = "—————————◉"
-        
     buttons = [
         [
             InlineKeyboardButton(
@@ -78,14 +76,13 @@ def stream_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
          [
-             InlineKeyboardButton(text="< - 𝟤𝟢ˢ", callback_data="seek_backward_20"),
-             InlineKeyboardButton(text="• ᴘʀᴏᴍᴏ •", url=f"https://t.me/badnam_xd?text=𝖧ᴇʏ%20ʙᴀʙʏ%20%20😄%20ɪ%20ᴡᴀɴᴛ%20ᴘᴀɪᴅ%20ᴘʀᴏᴍᴏᴛɪᴏɴ,%20ɢɪᴠᴇ%20ᴍᴇ%20ᴘʀɪᴄᴇ%20ʟɪsᴛ%20😙"),
-             InlineKeyboardButton(text="𝟤𝟢ˢ + >", callback_data="seek_forward_20")
+             InlineKeyboardButton(text="< - 𝟤𝟢 s", callback_data="seek_backward_20"),
+             InlineKeyboardButton(text="ᴘʀᴏᴍᴏ", url=f"https://t.me/badnam_xd?text=𝖧ᴇʏ%20ʙᴀʙʏ%20%20😄%20ɪ%20ᴡᴀɴᴛ%20ᴘᴀɪᴅ%20ᴘʀᴏᴍᴏᴛɪᴏɴ,%20ɢɪᴠᴇ%20ᴍᴇ%20ᴘʀɪᴄᴇ%20ʟɪsᴛ%20😙"),
+             InlineKeyboardButton(text="𝟤𝟢 s + >", callback_data="seek_forward_20")
          ],
-        [ InlineKeyboardButton(text="[CLOSE_BUTTON]", callback_data="close") ]
-        
+         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close"),
     ]
-        ]
+        
     ]
     return buttons
 
@@ -100,13 +97,12 @@ def stream_markup(_, chat_id):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
          ],
         [
-             InlineKeyboardButton(text="< - 𝟤𝟢ˢ", callback_data="seek_backward_20"),
-             InlineKeyboardButton(text="• ᴘʀᴏᴍᴏ •", url=f"https://t.me/badnam_xd?text=𝖧ᴇʏ%20ʙᴀʙʏ%20%20😄%20ɪ%20ᴡᴀɴᴛ%20ᴘᴀɪᴅ%20ᴘʀᴏᴍᴏᴛɪᴏɴ,%20ɢɪᴠᴇ%20ᴍᴇ%20ᴘʀɪᴄᴇ%20ʟɪsᴛ%20😙"),
-             InlineKeyboardButton(text="𝟤𝟢ˢ + >", callback_data="seek_forward_20")
+             InlineKeyboardButton(text="< - 𝟤𝟢 s", callback_data="seek_backward_20"),
+             InlineKeyboardButton(text="ᴘʀᴏᴍᴏ", url=f"https://t.me/badnam_xd?text=𝖧ᴇʏ%20ʙᴀʙʏ%20%20😄%20ɪ%20ᴡᴀɴᴛ%20ᴘᴀɪᴅ%20ᴘʀᴏᴍᴏᴛɪᴏɴ,%20ɢɪᴠᴇ%20ᴍᴇ%20ᴘʀɪᴄᴇ%20ʟɪsᴛ%20😙"),
+             InlineKeyboardButton(text="𝟤𝟢 s+ >", callback_data="seek_forward_20")
          ],
-           [ InlineKeyboardButton(text="[CLOSE_BUTTON]", callback_data="close") ]
-    
-    ]
+            [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close"),
+
         ]
     ]
     return buttons
@@ -132,6 +128,7 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
         ],
     ]
     return buttons
+                
 
 
 def livestream_markup(_, videoid, user_id, mode, channel, fplay):
@@ -182,10 +179,11 @@ def slider_markup(_, videoid, user_id, query, query_type, channel, fplay):
     ]
     return buttons
 
-# ===========================================================
-# ©️ 2025-26 All Rights Reserved by Team Rocky (Im-Notcoder) 😎
-# 
-# 🧑‍💻 Developer : t.me/mrrockytg
-# 🔗 Source link : t.me/rockyxupdate
-# 📢 Telegram channel : t.me/rockyxupdate
-# ===========================================================
+# ======================================================
+# ©️ 2025-26 All Rights Reserved by Kirti 😎
+
+# 🧑‍💻 Developer : t.me/lll_APNA_BADNAM_BABY_lll
+# 🔗 Source link : https://github.com/Badnam019
+# 📢 Telegram channel : t.me/lll_APNA_BADNAM_BABY_lll
+# =======================================================
+
