@@ -32,9 +32,9 @@ ASSUSERNAME = getenv("ASSUSERNAME")
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOGGER_ID = int(getenv("LOGGER_ID", -1002141133985))
 
-API_URL = getenv("API_URL", 'https://pytdbotapi.thequickearn.xyz') #youtube song url
-VIDEO_API_URL = getenv("NxGBNexGenBotsc3e509", 'https://api.video.thequickearn.xyz')
-API_KEY = getenv("NxGBNexGenBotsc3e509", None) # youtube song api key, generate free key or buy paid plan from panel.thequickearn.xyz
+# Vars For API End Pont.
+YTPROXY_URL = getenv("YTPROXY_URL", 'https://tgapi.xbitcode.com') ## xBit Music Endpoint.
+YT_API_KEY = getenv("YT_API_KEY" , 'xbit_08n9Qhhx9AoasnIu6bV_1QNcI6pVNqWt') ## Your API key like: xbit_10000000xx0233 Get from  https://t.me/tgmusic_apibot
 
 # ======================================================
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
