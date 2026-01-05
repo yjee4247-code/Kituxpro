@@ -3,7 +3,7 @@
 </p>
 
 <h2 align="center">
-    ───「 ᴘᴜʀᴠɪ ᴍᴜsɪᴄ 」───
+    ───「 TANU ᴍᴜsɪᴄ 」───
 </h2>
 
 <p align="center">
@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <img src="https://files.catbox.moe/971v6c.jpg">
+  <img src="https://files.catbox.moe/coqkev.jpg">
 </p>
 
 <p align="center">
