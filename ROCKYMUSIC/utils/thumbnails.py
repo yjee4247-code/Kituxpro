@@ -159,12 +159,12 @@ async def get_thumb(videoid: str, player_username: str = None) -> str:
     padding = 25
 
     
-    shashank_text = "POWERD BY:-@IlI_KRITI_OWNER_lll"
+    shashank_text = "IG:- @IlI_KRITI_OWNER_lll"
     shashank_x = padding
     shashank_y = padding
     draw.text((shashank_x, shashank_y), shashank_text, fill=(255, 255, 0), font=shreya_font)
 
-    shreya_text = "DEV :- @IlI_KRITI_OWNER_lll"
+    shreya_text = "DEV :- @badnam_xd"
     shreya_w = shreya_font.getlength(shreya_text)
     shreya_x = 1280 - shreya_w - padding
     shreya_y = padding
