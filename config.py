@@ -75,7 +75,7 @@ STRING6 = getenv("STRING_SESSION6", None)
 STRING7 = getenv("STRING_SESSION7", None)
 
 # ======================================================
-START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/x5lytj.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/x5lytj.jpg)
 PING_IMG_URL = getenv("PING_IMG_URL", "https://files.catbox.moe/leaexg.jpg")
 
 PLAYLIST_IMG_URL = "https://files.catbox.moe/b0e4vk.jpg"
