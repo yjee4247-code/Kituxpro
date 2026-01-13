@@ -13,7 +13,7 @@ from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
-from py_yt import VideosSearch
+from ytSearch import VideosSearch, CustomSearch
 import base64
 from ROCKYMUSIC import LOGGER
 from ROCKYMUSIC.utils.database import is_on_off
