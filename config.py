@@ -17,8 +17,8 @@ from pyrogram import filters
 load_dotenv()
 
 # ======================================================
-API_ID = int(getenv("API_ID", "24168862"))
-API_HASH = getenv("API_HASH", "916a9424dd1e58ab7955001ccc0172b3")
+API_ID = int(getenv("API_ID", ""))
+API_HASH = getenv("API_HASH", "")
 BOT_TOKEN = getenv("BOT_TOKEN", None)
 
 # ======================================================
@@ -30,7 +30,7 @@ ASSUSERNAME = getenv("ASSUSERNAME")
 
 # ======================================================
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
-LOGGER_ID = int(getenv("LOGGER_ID", -1002141133985))
+LOGGER_ID = int(getenv("LOGGER_ID", -1003670001038))
 
 # Vars For API End Pont.
 YTPROXY_URL = getenv("YTPROXY_URL", 'https://tgapi.xbitcode.com') ## xBit Music Endpoint.
